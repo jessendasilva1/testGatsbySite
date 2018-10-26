@@ -21,6 +21,7 @@ module.exports = {
           icon: "src/images/icon.png", // This path is relative to the root of the site.
         },
       },
+      `gatsby-plugin-netlify-cms`,
       `gatsby-plugin-emotion`,
       `gatsby-transformer-remark`,
       {
