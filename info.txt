@@ -1,0 +1,17 @@
+Typography.js: 
+    Helps generate CSS for block and inline elements. Set default values for them and change one value
+    to change all elemnts that follow the typography
+
+Source Plugins: 
+    Bring in data to your gatsby website
+
+Transformer Plugins: 
+    Takes raw content from source plugins and transforms it into something useful. (Source plugins get the file info, but 
+    not the actual content of the files)
+
+Slug: 
+    generate a path for the page (also known as a slug for a page). Programmatically creates pages for each of your nodes(data objects)
+    returned from your graphql query. Once the slugs for each page have been created, you can then actually create the pages. 
+
+
+
