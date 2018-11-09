@@ -18,12 +18,13 @@ module.exports = {
           background_color: "#6b37bf",
           theme_color: "#6b37bf",
           display: "minimal-ui",
-          icon: "src/images/icon.png", // This path is relative to the root of the site.
+          icon: "src/images/icon.jpg", // This path is relative to the root of the site.
         },
       },
       `gatsby-plugin-netlify-cms`,
       `gatsby-plugin-emotion`,
       `gatsby-transformer-remark`,
+      `gatsby-plugin-react-helmet`,
       {
         resolve: `gatsby-source-filesystem`,
         options: {
